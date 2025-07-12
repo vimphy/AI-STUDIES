@@ -1,0 +1,98 @@
+Basics
+In Ragnarok Online, a character's class, also known as their Job, is what defines their abilities and skills and shapes what playstyles are available to them. Once you pick a class for a character, you cannot switch to a different class, and once you pick that character's second class, you are locked to that second class's evolution path forever. Doram characters only have access to the Summoner class line and cannot change it, but Human characters start out as Novices and can then progress down a class tree as they level.
+
+Humans' classes can be divided into two broad types: Primary and Expanded. Primary Classes are the ones that were introduced at the game's inception and whose progression most of the game is built around, whereas Expanded Classes have been added over time and are more limited, having lower maximum levels, less complex progression trees, specialised playstyles, and niche applications. The six primary classes are Swordsman, Mage, Merchant, Acolyte, Thief, and Archer, and the four Expanded Classes are TaeKwon Kid, Ninja, Gunslinger, and Super Novice.
+
+Except where otherwise specified, the rest of this article will be about Human characters.
+
+Class Progression
+Characters in Ragnarok Online (including Dorams) have two types of levels: their Base Level and their Job Level. While the former tracks the overall power level of the character, the latter tracks how far along a character is in the mastery of their Class. Both defeated foes and a reasonable number of quests give Job Level Experience in addition to Base Level Experience. Job Levels start at 1 and have a class-specific cap, and each additional level gives you one extra Skill Point which can be spent to learn a new Skill or develop one that has already been learned. Additionally, all Classes give extra bonuses to their most relevant Stats at specific Job Levels (for example, Mages have an extra +1 INT at Job Level 2, +2 at Job Level 14, and so on, up to Job Level 50, when they get +8 INT total).
+
+All classes have another layer of progression beyond just their Skills and Job Levels: once you reach a certain specific Job Level and allocate all of your Skill Points, you have the option to evolve into a new class. When you do so, your Job Level is reset to 1 (but you don't lose any of your already-existing Skills and Skill Points) and you get access to entirely new Skills plus extra bonuses to your Stats.
+
+Progression for Human characters goes as follows:
+
+You start out as a Novice on character creation.
+Once you reach Job Level 10 and allocate all 9 Skill Points into the Basic Skill you will be able to Job Change into a First Class, which will reset your Job Level to 1.
+In order to do so, you need to complete a quest; the pages of each First Class explain how to change to them.
+Super Novices additionally require you to reach Base Level 45 before you can change into them.
+If you chose one of the Primary Classes or TaeKwon Kid:
+Once you are Job Level 40 or higher, you will be able to select one of two Second Classes. However, your max Job Level is 50, and you will be unable to recover the Skill Points you would've gotten if you Job Change before reaching it, so it is highly recommended to wait until then.
+After changing Jobs, your Job Level will be reset to 1, and you will be able to start levelling it again, up to a maximum of 50.
+If you are one of the Primary Classes you will be able to Transcend (see below for more details on how that works) at level 99/50.
+This will turn you into a level 1/1 High Novice, with higher stats than a regular Novice.
+Then, at Job Level 10 you change into your High First Class.
+Finally, at Job Level 50, you will be able to change into a Transcendent Second Class.
+Regardless of whether you are a Transcendent Primary Second Class or one of the TaeKwon Kid Second Classes, you will be able to change into your Third Class at level 99/50. Your maximum Job Level is 70, though, and it is strongly recommended that you reach that otherwise your Skill Points will be lost forever.
+As a Third Class, you will be able to change into your Fourth Class at level 200/60. The Job Level cap is 70, though, and you will almost certainly reach it before reaching Base Level 200. If you don't, it is strongly recommended that you get to Job Level 70 before changing classes.
+If you chose an Expanded Class other than Super Novice:
+Once you are level 99/50, you will be able to advance to your Second Class. However, your max Job Level is 70, and you will be unable to recover the Skill Points you would've gotten if you Job Change before reaching it, so it is highly recommended to wait until then. Note: needs verification, was true prior to the 4th Class update but may no longer be.
+As a Second Class, you will be able to change into your Third Class at level 200/60. The Job Level cap is 70, though, and you will almost certainly reach it before reaching Base Level 200. If you don't, it is strongly recommended that you get to Job Level 70 before changing classes.
+If you chose Super Novice:
+Your maximum Base Level and Job Level are both 99.
+Once you reach them, you will be able to take the Job Expansion Quest, which will reset your Job Level to 1 (without resetting your allocated Skill Points). After that, your level caps will be raised to 200/70 and you will have access to extra Skills, but your class will still be referred to as Super Novice by the game.
+At level 200/60, you will be able to change into a Hyper Novice, which has its own special Skills that no other class does.
+Progression for Doram characters is much simpler and more linear: you start out as a Summoner on character creation, and your maximum levels are 200/60; when you reach them, you will be able to change into the Spirit Handler class.
+
+No matter which path you choose, the maximum levels as the highest class you can reach along your progression line are 250/50, after which there are no further classes to change into.
+
+Class evolution follows the chart at the top of the page. The only points at which you make choices are when selecting your First and Second Classes (where available); all further possible classes follow from those previous choices. For the classes marked with an asterisk (*) in the table, you cannot choose which of them you end up as; rather, they depend on your character's gender, selected at creation.
+
+Transcendence
+
+Sprite comparison for High Novice and High First Classes
+Characters who reach Base Level 99 and Job Level 50 as a Primary Second Class get the option to go to Juno to be reborn, a process which is referred to as Transcendence. When they do, they will be sent to the town associated with their First Class, lose all of their Stats and Skills, and become level 1/1 High Novices, more powerful versions of regular Novices from which you can progress further than you could prior to rebirth. High Novices and High First Classes are identical to their pre-Transcendence counterparts except for the bonuses outlined below plus differently-coloured sprites:
+
+A permanent 25% increase to maximum HP and SP.
+100 Stat Points to start off with (as opposed to a regular Novice's 48 Stat Points).
++1 to all of their base Stats, granted incrementally as a High Novice over their Job Levels (following the table below).
+Access to equipment marked as "Transcendent only".
+Access to the upper levels of Thanatos Tower.
+Automatic access to Novice's Quest Skills First Aid and Play Dead without needing to have completed those quests first.
+As a High Novice, when you reach Job Level 10 you will be able to change into the High First Class matching your original First Class (so, for example, if you originally chose to be an Archer, you will be able to change into a High Archer).
+You will automatically learn your First Class's Quest Skills when changing to it.
+Stat\Amount	+1
+STR	8
+AGI	5
+VIT	6
+INT	9
+DEX	3
+LUK	2
+After reaching Job Level 50 as a High First Class, you will need to return to the Book of Ymir in Juno (see below) to change into the Transcendent Second Class matching your original Second Class (so, for example, if you originally chose to become a Hunter, you will be able to become a Sniper), which has access to all of the Skills available to their matching Second Class plus a number of Transcendent-exclusive Skills. Additionally, its maximum Job Level is 70 (rather than 50) and, once you reach Base Level 99 and Job Level 70, you will be able to job change into its Third Class, with access to even more Skills as well as a raised Base Level cap of 200 and a Job Level cap of 70. Finally, after all of that, you can change into your Fourth Class, with level caps 250/50.
+
+Rebirth Walkthrough
+Reach Base Level 99 and Job Level 50 as a Second Class.
+Head to the Sage Castle in Northwest Juno (entrance at (yuno 87, 321)).
+Talk to Metheus Sylphe (yuno_in02 88, 164), and pay 1,285,000 zeny. This fee can be waived by hunting a Runaway Book that appears in the field around Juno and looting 1 6586.png Captured Book.
+To proceed in this quest, the character must not have a Pushcart, Falcon, Cute Pet, Peco Peco or Halter Lead and must have all of his or her Skill Points spent. They must also be carrying less than 500 Weight.
+Non-iRO servers may also require 0 Weight and 0 Zeny. Some equipment, despite weighing zero, may be rejected by the Valkyrie.
+
+Read The Book of Ymir (yuno_in02 93, 205). Choose Leave your body to it.
+
+After you've been warped to Valhalla, walk north as far as you can, roughly (valkyrie 42, 82), and talk to the Valkyrie.
+
+If you've got less than 500 Weight and no unallocated Skill Points on your character, you'll be reborn into a High Novice, and warped to the town of your original first class:
+Swordsman - Izlude
+Mage - Geffen
+Merchant - Alberta
+Acolyte - Prontera, behind the church
+Thief - Morroc
+Archer - Payon
+Fourth Class Job Change Skip
+Note:
+Example shown below is with the Elemental Master job change npc, but the process is same for all 4th classes.
+Make sure you have allocated all of the remaining job skill points on your character before starting 4th Job Change Quest Skip.
+Each 4th Job Change Quest Start NPC of all 4th jobs would have a Valkyrja's Whisper NPC nearby for you to do the Job quest skip. The Valkyrja Whisper NPC looks like a Horong.
+By doing this quest skip, you will also be excluded from the necessity to complete any quest prerequisite(s) related to the actual job change quest. As example, to be an Elemental Master / Arch Mage, by doing this job change skip, you would not need to do all of these quests beforehand -
+Ep 16.1 The Royal Banquet
+Ep 16.2 Terra Gloria
+Ep 17.1 Illusion
+Ep 17.2 Legacy of the Wise One
+DO NOT TALK TO THE JOB CHANGE NPC , or else you wont be able to skip the quest and will have to proceed with it.
+Fourth Class Job Change NPC
+Step 01: Talk to the Valkyrja's Whisper next to the JOB CHANGE NPC and choose the first option "Yes, ma'am!" when it asks whether you believe in it.
+Valkyrja's Whisper
+Step 02: Talk to the newly spawned Valkyrja, she will inform you that the skip will cost you 100 6909.png Nyangvine and that you wont get any of the job change rewards, e.g. 490087.png Hourglass Necklace.
+Valkyrja
+Step 03: Choose the second option "Yes, let's do it! Let's break the wall!" and she'll change you into your respective fourth job.
+Job Changed
