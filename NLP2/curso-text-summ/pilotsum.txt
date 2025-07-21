@@ -1,0 +1,123 @@
+Sure thing, Rennan! Here's a clean and organized version of our conversation, formatted so you can easily copy it into any document editor or note-taking app for export as a PDF:
+
+🧠 Text Summarization: Deep Dive + Elden Ring Example + Python Tutorial
+
+📚 What Is Text Summarization?
+Text summarization is the process of reducing a large document into a concise version that retains key ideas and meaning.
+📝 Common Use Cases:
+- News aggregation and summaries
+- Academic abstracts and reports
+- Legal and medical briefings
+- Video captions or meeting transcripts
+- Game lore condensation (e.g., Elden Ring!)
+
+🧪 Common Workflow Steps
+| Step | Description | 
+| Preprocessing | Clean and tokenize text (remove stopwords, punctuation) | 
+| Representation | Convert text to vectors using TF-IDF, embeddings, or transformer encoders | 
+| Scoring | Evaluate relevance of sentences or phrases | 
+| Selection/Generation | Extract top-ranked content or generate paraphrased text | 
+| Postprocessing | Improve grammar, coherence, and remove redundancies | 
+
+
+
+🔍 Extractive vs. Abstractive Techniques
+| Technique | Method | Pros | Cons | 
+| Extractive | Selects original text portions | Fast, accurate, preserves original wording | Less fluent, no paraphrasing | 
+| Abstractive | Generates new phrased summary | More natural and human-like | Complex, may hallucinate facts | 
+
+
+
+🚀 Popular Summarization Algorithms
+🔹 Extractive Techniques
+- TextRank
+✅ Unsupervised, fast
+❌ May extract redundant or disjointed sentences
+- LexRank
+✅ Handles multi-document well
+❌ Sensitive to similarity thresholds
+- TF-IDF
+✅ Lightweight and intuitive
+❌ Lacks semantic depth
+- LSA
+✅ Captures latent topics
+❌ Computationally heavy; ignores syntax
+
+✨ Abstractive Techniques
+- Seq2Seq Models
+✅ Human-like phrasing
+❌ Data-intensive and prone to error propagation
+- BART
+✅ Handles noisy input, high performance
+❌ Large model size
+- T5 (Text-to-Text)
+✅ Unified framework for multiple NLP tasks
+❌ Prompt design complexity
+- PEGASUS
+✅ Pretrained specifically for summarization
+❌ Narrower NLP scope
+- GPT-based Variants
+✅ Adaptable and fluent
+❌ Susceptible to factual drift
+
+🧪 Python Mini Summarizers
+✅ Extractive Summarizer with sumy
+from sumy.parsers.plaintext import PlaintextParser
+from sumy.nlp.tokenizers import Tokenizer
+from sumy.summarizers.text_rank import TextRankSummarizer
+
+with open("sampleelden.txt", "r", encoding="utf-8") as file:
+    text = file.read()
+
+parser = PlaintextParser.from_string(text, Tokenizer("english"))
+summarizer = TextRankSummarizer()
+summary = summarizer(parser.document, sentences_count=8)
+
+for sentence in summary:
+    print("-", sentence)
+
+
+
+✨ Abstractive Summarizer with Hugging Face Transformers
+from transformers import pipeline
+
+with open("sampleelden.txt", "r", encoding="utf-8") as file:
+    text = file.read()
+
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+chunks = [text[i:i+1000] for i in range(0, len(text), 1000)]
+
+final_summary = []
+for chunk in chunks:
+    result = summarizer(chunk, max_length=130, min_length=30, do_sample=False)
+    final_summary.append(result[0]['summary_text'])
+
+print("\n".join(final_summary))
+
+
+
+📘 Suggested Articles & Tutorials
+- Text Summarization Techniques – GeeksforGeeks
+- Extractive Text and Video Summarization with TF-IDF – IJRAR
+- Abstractive Summarization for Video Lectures – Springer
+- Multimodal Abstractive Summarization – ACL Anthology
+Search YouTube for:
+- “Text summarization NLP tutorial”
+- “TextRank vs LexRank”
+- “Abstractive summarization BART T5 GPT”
+
+🧩 Slide: O que são Tokens?
+Tokens são as unidades básicas de texto utilizadas em NLP. Podem ser palavras, subpalavras ou caracteres.
+Tipos:
+| Tipo | Descrição | Exemplo | 
+| Tokenização por palavras | Divide texto em palavras | "aprendizado de máquina" → [“aprendizado”, “de”, “máquina”] | 
+| Tokenização por caracteres | Cada letra vira um token | "Eu" → [“E”, “u”] | 
+| Tokenização por subpalavras | Divide palavras em blocos úteis, ideal para palavras raras | "aprendizado" → [“aprendi”, “zado”] | 
+
+
+Importância:
+- Pré-processamento de texto
+- Alimentação para modelos de NLP
+- Análise sintática e semântica
+
+Let me know if you'd like this converted into a Markdown layout for even easier formatting in documentation tools. Happy to help more! 💾📕
