@@ -1,0 +1,94 @@
+# organizando falas para apresentação separando por cada slide.
+
+slide 1 - What is text summarizing: 
+    Sumarização de textos é o processo de condensar um grande corpo de texto em uma versão reduzida enquanto preserva o significado e ideia principal do texto.
+    é uma das tectnicas mais usadas atualmente e está incoporada como parte essencial em ferramentas de assistencia como chatgpt, gemini e copilot. todas essas
+    ferramentas utilizam tecnicas de Sumarização e resumo de texto. 
+
+    Principais usos:
+    Agregação e resumo de noticias e artigos. Para criação de novos artigos, posts condensados em sites de noticias.
+    Criaçao de abstracts para papers academicos
+    briefings para reunioes, e resumos financeiros e legais 
+    transcições e legenda de videos
+
+slide 2 - Basic workflow:
+    No processo de summarização de texto normalmente segue um workflow basico, variando dependendo da tecnica usada mas em geral sempre segue alguns steps especificos. 
+
+    Reprocessamento - Limpeza e tokenização do texto ( nessa etapa sao removidos artigos e pontuações deixando o as palavras principais)
+    Representação - Conversão do texto para formato númerico, utilizando tecnicas como TF-IDf, embeddings ou transformers. O texto precisa ser transposto para formato numérico
+    para que o modelo de IA possa utilizar as palavras.
+    scoring - ranquear as sentenças ou frased por relevancia. cada modelo tem sua forma especifica de classificaçao das palavras. 
+    Seleção e geraçao - Seleciona ou gera o conteudo para summarização.
+    postprocessing - refinamento da gramatica, para remover redundancias. 
+
+    em geral os modelos mais utilizados para Sumarização seguem  nao exatamente mas certamente algumas dessas etapas no processo de resumo e criaçao de textos.
+
+Slide  3 - What  is tokenization:
+
+Tokens sao as menores unidades de texto - palavras, caracteres ou subpalavras - usados por sistemas ou modelos NLP - de processamento de linguagem. Tokenização separa as 
+sentenças em pedaços/partes mais gerenciaveis e flexiveis. 
+
+Tiposs de tokenização: 
+
+Work Tokenization - Separa texto em palavras
+Character Tokenization - Separa texto em caracteres
+Subwork tokenization - separa as palavras em silabas/fragmentos
+
+Importancia:
+- essencial para reprocessamento
+- necessário para alimentar modelos de processamento de linguagem natural 
+- Usados para execução de parsings sintaticos e semanticos
+
+slide 4 Extractive vs Abstractive summarization:
+
+    Existem duas principais tecnicas para Sumarização de texto, essas tecinicas diferenciam bastante os modelos usados para resumo de texto e cada uma ofeceres outputs
+    diferentes que podem ser usando para diferentes finalidades. 
+
+    Sumarização Extrativa - funciona identificando e selecionando as sentencas e frases mais importantes do documento fonte. Essa tecnica reorganiza porém nao reescreve o conteudo
+    -  o que significa que o texto original se matem sem mudanças
+
+    Sumarização Abstrativa - por sua vez tem uma visao mais avançada. O modelo entende as principais ideias do e reescreve eles usando novas frases, comummente tentando
+    imitar a forma que um humano resumiria o a passagem.
+
+    cada uma das tecnicas tem suas vantagens e são mais recomendadas para diferentes casos de uso. Aqui está uma comparação das duas tecnicas:
+
+Slide 5 - Extractive x abstractive summarization casos de uso
+
+
+
+Slide 6 - hands on Extractive x abstractive summarization 
+
+explicando codigo.
+Sumy + Textrank: 
+ - TextRank constroi um grago de similaridade entre as sentencas
+ - Cada sentença é um nó, com conexoes ponderadas pela similaridade de conteúdo
+ - O algoritmo  calcula os nós mais importantes e seleciona os melhores para o resumo
+ - O resultado mantem as frases originais, caracterizando um resumo do tipo extativo. 
+
+ Hugging Face (BART):
+
+
+ - Tokenizador: Converte o texto bruto em IDs de tokens que o modelo entende. 
+ - Modelo: O BART le os tokens e gera uma nova sequencia representando o resumo 
+ - Beam search (busca em feixo): Explora várias possibilidades de saída e escolhe a melhor 
+ - Penalidade de comprimento: Evita resumos muito curtos ou muito longos
+ - Parada antecipada: Interrompe a geraçao quando o resultado ja é satisfatório
+
+ O resultado é abstrativo, ou seja, o texto gerado é novo e reescrito, não apenas copiado do original
+
+ Slide 7 - Outros modelos de summariação extrativa e Abstrativa
+
+Slide 8 - O que é hugging face ?
+
+Hugginface é uma plataforma open source focada no acessoa a poderosas ferramentas de IA - Especialmente NLP
+
+Propósito:
+- Hostear e treinar modelos
+- Compartilhar datasets e experimentos
+- habilitar comunicação com fearramentas de linguagem escalaveis e fáceis de usar
+
+Slide 9 - Referencias:
+
+- https://www.kaggle.com/datasets/terrychanorg/facebook-bartlargecnn 
+- https://cursos.alura.com.br/course/nlp-resumindo-textos-hugging-face-gradio 
+- https://www.geeksforgeeks.org/nlp/text-summarization-techniques/ 
